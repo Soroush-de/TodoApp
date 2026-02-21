@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stryle.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>
+            Todo App
+        </h2>
+        <div class="inputSection">
+            <input type="text" placeholder="Add Todo..." id="task-input">
+            <input type="date" id="date-input">
+            <button class="add-button">
+                Add
+            </button>
+             <button class="EditAgain-button1" id="edit">
+                Edit
+            </button>
+        </div>
+        <div class="todosOperator">
+            <div>
+                <button class="filter-todos all">All</button>
+                <button class="filter-todos pending">Pending</button>
+                <button class="filter-todos completed">Completed</button>
+            </div>
+            <button class="deleteAll">Delete all</button>
+        </div>
+    </div>
+    <div class="alert-message"></div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Task
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>
+                        text
+                    </td>
+                    <td>
+                        date
+                    </td>
+                    <td>
+                        pending
+                    </td>
+                    <td>
+                    <button>
+                        Edit
+                    </button>
+                    <button>
+                        Do
+                    </button>
+                    <button>
+                        Delete
+                    </button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
