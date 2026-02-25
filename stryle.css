@@ -137,6 +137,8 @@ tbody td button:nth-child(3){
   }
   
 }
+
+
 .EditAgain-button{
   opacity: 1;
   &:hover{

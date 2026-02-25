@@ -11,6 +11,7 @@ const allBtn = document.querySelector(".all");
 let allTodos = JSON.parse(localStorage.getItem("todos")) || [];
 const editAgianBtn = document.querySelector("#edit");
 
+
 const showAlert = (message, type) => {
   alertMessage.innerHTML = "";
   const alert = document.createElement("p");
